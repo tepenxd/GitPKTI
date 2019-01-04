@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ff3c49"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/hospital"
+        />
+
+
+    <LinearLayout
+        android:elevation="5dp"
+        android:background="@drawable/background_login"
+        android:layout_gravity="center"
+        android:paddingBottom="40dp"
+        android:paddingHorizontal="40dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin= "5dp"
+        android:layout_gravity="center"
+        android:text="M-Hospital"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_txt_box"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_text_box"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:hint="email"
+        android:layout_width="200dp"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/password_txt_box"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_text_box"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="login"
+        android:id="@+id/login_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:elevation="10dp"
+        android:background="@drawable/background_button"
+        android:text="login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Belum punya akun?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:onClick="signup"
+        android:id="@+id/sign_up_txt"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:text="Daftar sekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="by Ryzen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progress_bar_login"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

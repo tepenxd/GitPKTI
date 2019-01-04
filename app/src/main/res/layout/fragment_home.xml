@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#e4e4e4"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:id="@+id/promotoion_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/medical_paket"
+         />
+
+    <TextView
+        android:id="@+id/info_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/promotoion_img"
+        android:layout_marginTop="5dp"
+        android:text="Info Kesehatan Terbaru"/>
+
+    <ImageButton
+        android:layout_below="@id/info_txt"
+        android:id="@+id/info_1"
+        android:background="@drawable/info_3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="180dp" />
+
+    <ImageButton
+        android:layout_below="@id/info_1"
+        android:id="@+id/info_2"
+        android:background="@drawable/info_2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "437016347287",
+    "firebase_url": "https://mhospital-c2821.firebaseio.com",
+    "project_id": "mhospital-c2821",
+    "storage_bucket": "mhospital-c2821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437016347287:android:8fc53cc0820957aa",
+        "android_client_info": {
+          "package_name": "com.example.ryzen.e_hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437016347287-kdc3jvq9tufom7vatb5g11vije20ur8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ryzen.e_hospital",
+            "certificate_hash": "3d1f8bc40f53f0c3b9c9ee56b4c6ef5abe57aed5"
+          }
+        },
+        {
+          "client_id": "437016347287-emovibsu9hljt30bls8n15dmm1pc31du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjxOVgovDem4m58qFDh8CbSUzQaoS8Et0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437016347287-emovibsu9hljt30bls8n15dmm1pc31du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
