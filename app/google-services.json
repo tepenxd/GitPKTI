@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "437016347287-4rcc63v2bcrda5qjq4sh0cgss97rd9qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ryzen.e_hospital",
+            "certificate_hash": "525be7802671780c8062ba00e77779c8ef20e38b"
+          }
+        },
+        {
           "client_id": "437016347287-emovibsu9hljt30bls8n15dmm1pc31du.apps.googleusercontent.com",
           "client_type": 3
         }
