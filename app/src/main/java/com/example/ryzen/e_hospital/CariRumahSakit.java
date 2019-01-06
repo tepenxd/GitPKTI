@@ -28,14 +28,17 @@ public class CariRumahSakit extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cari_rumah_sakit);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(layoutManager);
+
         list = new ArrayList<Hospital>();
 
-        mdatabaseReference = FirebaseDatabase.getReference().child("Hospital");
+        mdatabaseReference = FirebaseDatabase.getInstance().getReference().child("Hospital");
         mdatabaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                for (DataSnapshot dataSnapshot1; dataSnapshot.getChildren()) {
+                for (DataSnapshot dataSnapshot1: dataSnapshot.getChildren()) {
                     Hospital h = dataSnapshot1.getValue(Hospital.class);
                     list.add(h);
                 }
